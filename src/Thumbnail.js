@@ -5,7 +5,7 @@ import './Thumbnail.css';
 
 const Thumbnail = ({ session }) => {
   return (
-    <div className={`thumbnail ${session.category}`}>
+    <div id={`thumbnail-${session.id}`} className={`thumbnail ${session.category}`}>
       <h1>{session.title}</h1>
       <div className="speakers">
         {session.speakers.map(id => <Speaker key={id} id={id} />)}

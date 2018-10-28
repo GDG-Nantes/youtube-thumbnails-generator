@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "102": {
     id: 102,
     title: "Opening keynote",
