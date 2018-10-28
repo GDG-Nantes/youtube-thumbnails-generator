@@ -8,7 +8,7 @@ const Thumbnail = ({ session }) => {
     <div className={`thumbnail ${session.category}`}>
       <h1>{session.title}</h1>
       <div className="speakers">
-        {session.speakers.map(id => <Speaker id={id} />)}
+        {session.speakers.map(id => <Speaker key={id} id={id} />)}
       </div>
     </div>
   );

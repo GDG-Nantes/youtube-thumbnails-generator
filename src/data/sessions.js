@@ -1,6 +1,4 @@
-import values from "lodash/values";
-
-export default values({
+export default {
   "102": {
     id: 102,
     title: "Opening keynote",
@@ -1220,4 +1218,4 @@ export default values({
     complexity: "Beginner",
     speakers: [122, 157, 126, 119]
   }
-});
+};

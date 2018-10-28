@@ -10,37 +10,42 @@ class App extends Component {
   }
 
   handleClick = (id) => () => {
-    this.setState({ currentId: id })
+    this.setState({ currentId: id });
   }
 
   handleEscpace = (e) => {
     if(e.keyCode === 27) {
-      this.setState({ currentId: undefined })
+      window.location = window.location.origin;
+      this.setState({ currentId: undefined });
     }
   }
+
   componentDidMount(){
     document.addEventListener("keydown", this.handleEscpace, false);
   }
+
   componentWillUnmount(){
     document.removeEventListener("keydown", this.handleEscpace, false);
   }
 
   render() {
     const { currentId } = this.state;
+    const sessionsArray = Object.values(sessions);
 
-    // type: web, mobile, cloud, discovery, other
+    const url = new URL(window.location.href);
+    const id = url.searchParams.get("id");
 
-    if (currentId) {
-      const session = sessions.find(session => session.id === currentId);
-      return <Thumbnail session={session} />
+    if (id || currentId) {
+      const session = sessions[id || currentId];
+      if (session) return <Thumbnail session={session} />
     }
 
     return (
       <div className="App">
-        {sessions
+        {sessionsArray
           .filter(session => session.type !== '💻 Codelab')
           .map(session => (
-            <div onClick={this.handleClick(session.id)}>
+            <div key={session.id} onClick={this.handleClick(session.id)}>
               <div>{session.title}</div>
             </div>
           )
