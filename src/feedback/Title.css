@@ -1,0 +1,20 @@
+.title {
+  font-family: "Times New Roman", Times, serif;
+  color: #7b354f;
+  font-size: 3.2rem;
+
+  position: absolute;
+  top: 22mm;
+  left: 268mm;
+  height: 56mm;
+  width: 240mm;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
