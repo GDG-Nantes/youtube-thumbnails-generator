@@ -9,11 +9,11 @@ class Speaker extends Component {
     const speaker = site.speakers.find(speaker => speaker.key === id);
     return (
       <div className="speaker">
+        {speaker.name}
         <div
           className="photo"
           style={{ backgroundImage: `url('https://devfest.gdgnantes.com${speaker.photoURL}')` }}
         />
-        {speaker.name}
       </div>
     );
   }

@@ -1,0 +1,75 @@
+[
+  {
+    "key": "_bigdata___ai",
+    "name": "ð¤ BigData & AI",
+    "id": "c97cf20f-aba8-5bcd-9251-72f8c3c536c6",
+    "classname": "youtube1"
+  },
+  {
+    "key": "_cloud___devops",
+    "name": "☁️ Cloud & DevOps",
+    "id": "4fee2bdd-0cf4-5429-945c-42a422577ff5",
+    "classname": "youtube1"
+  },
+  {
+    "key": "_discovery",
+    "name": "ð¡ Discovery",
+    "id": "ef048dea-2728-54c5-9334-93d0cfe5d981",
+    "classname": "youtube2"
+  },
+  {
+    "key": "_languages",
+    "name": "ð Languages",
+    "id": "3e79596d-6302-5601-a027-901bff9e2692",
+    "classname": "youtube1"
+  },
+  {
+    "key": "_mobile___iot",
+    "name": "ð± Mobile & IoT",
+    "id": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
+    "classname": "youtube3"
+  },
+  {
+    "key": "_security",
+    "name": "ð±‍ð» SECURITY",
+    "id": "1e18bcfa-f91a-5ac0-b2f1-ee586837c398",
+    "classname": "youtube2"
+  },
+  {
+    "key": "_ux___ui",
+    "name": "ð UX / UI",
+    "id": "b8f42b3e-d1d0-5212-bb39-9dfad1b01661",
+    "classname": "youtube2"
+  },
+  {
+    "key": "_web",
+    "name": "ð Web",
+    "id": "cf75cee3-5ee8-58de-ac77-6bb665a3463d",
+    "classname": "youtube4"
+  },
+  {
+    "key": "keynote",
+    "name": "Keynote",
+    "classname": "youtube5"
+  },
+  {
+    "key": "lunch",
+    "name": "Lunch",
+    "classname": ""
+  },
+  {
+    "key": "open",
+    "name": "Ouverture",
+    "classname": ""
+  },
+  {
+    "key": "party",
+    "name": "Party",
+    "classname": ""
+  },
+  {
+    "key": "pause",
+    "name": "Pause",
+    "classname": ""
+  }
+]

@@ -1,6 +1,11 @@
 import schedule from "./data/schedule.json";
 import rooms from "./data/rooms.json";
 import slots from "./data/slots.json";
+import categories from "./data/categories.json";
+
+export const getCategory = category => {
+  return categories.find(cat => cat.key === category).classname;
+};
 
 const getDay = day => {
   if (day === "2019-10-21") {

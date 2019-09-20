@@ -1,25 +1,32 @@
 .thumbnail {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 1920px;
   height: 1080px;
-  color: #000;
+  color: #fff;
 
-  background-size: cover;
+  background-size: contain;
 }
 
-.thumbnail > h1 {
+.info-youtube {
+  margin: 50px;
+}
+
+h1 {
   font-size: 5rem;
-  text-align: center;
-  max-width: calc(1920px / 1.8);
-  margin-bottom: 2rem;
+  text-align: right;
+  max-width: calc(1920px / 1.2);
+  margin: 2rem 2rem 6rem 2rem;
+  color: #fff;
 }
 
 .speakers {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .speakers > * {
@@ -30,23 +37,22 @@
   margin-bottom: 0;
 }
 
-/* .cloud {
-  background: url("../assets/cloud.jpg") no-repeat;
+.youtube1 {
+  background: url("../assets/youtube1.jpg") no-repeat;
 }
 
-.other {
-  background: url("../assets/other.jpg") no-repeat;
+.youtube2 {
+  background: url("../assets/youtube2.jpg") no-repeat;
 }
 
-.discovery {
-  background: url("../assets/discovery.jpg") no-repeat;
+.youtube3 {
+  background: url("../assets/youtube3.jpg") no-repeat;
 }
 
-.mobile {
-  background: url("../assets/mobile.jpg") no-repeat;
+.youtube4 {
+  background: url("../assets/youtube4.jpg") no-repeat;
 }
 
-.web {
-  background: url("../assets/web.jpg") no-repeat;
-  color: #000;
-} */
+.youtube5 {
+  background: url("../assets/youtube5.jpg") no-repeat;
+}

@@ -15,7 +15,7 @@ async function main() {
         for (let i = 0; i < sessions.length; i++) {
           const session = sessions[i];
           console.log(`screenshot: (${session.key}) ${session.title}`);
-          await page.goto(`http://localhost:3000?id=${session.key}&type=feedback`);
+          await page.goto(`http://localhost:3000?id=${session.key}&type=youtube`);
 
           const elements = await page.$$(`#thumbnail-${session.key}`);
 
