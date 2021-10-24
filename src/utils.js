@@ -8,10 +8,10 @@ export const getCategory = category => {
 };
 
 const getDay = day => {
-  if (day === "2019-10-21") {
+  if (day === "2021-10-21") {
     return "October 21st";
   }
-  if (day === "2019-10-22") {
+  if (day === "2021-10-22") {
     return "October 22st";
   }
 };

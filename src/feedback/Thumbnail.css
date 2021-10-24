@@ -1,13 +1,10 @@
-.thumbnail {
+.thumbnail-feedback {
   width: 594mm;
   height: 420mm;
   color: #000;
 
-  background-size: cover;
   position: relative;
-}
-
-.feedback {
   background: url("../assets/feedback.jpg");
   background-size: contain;
 }
+

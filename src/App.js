@@ -24,7 +24,7 @@ class App extends Component {
 
     if (id || currentId) {
       const session = sites.sessions.find(
-        session => session.key === id || session.key === currentId
+        session => session.key === id || (session.key && session.key === currentId)
       );
 
       if (session && (type === "youtube" || currentType === "youtube"))
@@ -36,14 +36,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <p>{sites.sessions.length} sessions</p>
         {sites.sessions
-          .filter(
-            session =>
-              !session.tags.includes("lunch") &&
-              !session.tags.includes("open") &&
-              !session.tags.includes("party") &&
-              !session.tags.includes("pause")
-          )
           .map(session => (
             <div key={session.key}>
               <div>{session.title}</div>

@@ -7,7 +7,7 @@ import "./Thumbnail.css";
 const Thumbnail = ({ session }) => {
   const info = getScheduleInfo(session.key);
   return (
-    <div id={`thumbnail-${session.key}`} className="thumbnail feedback">
+    <div id={`thumbnail`} className="thumbnail-feedback">
       <Title title={session.title} {...info} />
     </div>
   );

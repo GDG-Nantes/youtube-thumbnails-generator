@@ -86,7 +86,7 @@
     "duration": 120,
     "row": {
       "start": 17,
-      "end": 24
+      "end": 25
     }
   },
   {
@@ -253,11 +253,11 @@
   },
   {
     "key": "codelab-2-day-2",
-    "start": "13:00",
+    "start": "14:00",
     "duration": 120,
     "row": {
-      "start": 16,
-      "end": 22
+      "start": 18,
+      "end": 26
     }
   },
   {
@@ -275,7 +275,7 @@
     "duration": 20,
     "row": {
       "start": 21,
-      "end": 23
+      "end": 22
     }
   },
   {
@@ -283,7 +283,7 @@
     "start": "15:10",
     "duration": 50,
     "row": {
-      "start": 23,
+      "start": 22,
       "end": 26
     }
   },
@@ -302,7 +302,7 @@
     "duration": 20,
     "row": {
       "start": 26,
-      "end": 28
+      "end": 27
     }
   },
   {
@@ -310,7 +310,7 @@
     "start": "16:20",
     "duration": 20,
     "row": {
-      "start": 28,
+      "start": 27,
       "end": 30
     }
   },
@@ -320,7 +320,7 @@
     "duration": 10,
     "row": {
       "start": 30,
-      "end": 32
+      "end": 31
     }
   },
   {
@@ -328,8 +328,8 @@
     "start": "16:50",
     "duration": 20,
     "row": {
-      "start": 32,
-      "end": 34
+      "start": 31,
+      "end": 35
     }
   },
   {
@@ -337,7 +337,7 @@
     "start": "17:10",
     "duration": 10,
     "row": {
-      "start": 34,
+      "start": 35,
       "end": 36
     }
   },

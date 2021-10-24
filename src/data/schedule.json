@@ -1,6 +1,6 @@
 [
   {
-    "day": "2019-10-21",
+    "day": "2021-10-21",
     "start": "08:00",
     "rooms": [
       {
@@ -12,7 +12,7 @@
           },
           {
             "slot": "keynote-open",
-            "talk": "keynote_open"
+            "talk": "__keynote_open"
           },
           {
             "slot": "pause-1-day-1",
@@ -20,7 +20,7 @@
           },
           {
             "slot": "slot-1-day-1",
-            "talk": "le_web__ses_frameworks_et_ses_standards___deconstruire_pour_mieux__re__construire"
+            "talk": "component_driven_development"
           },
           {
             "slot": "pause-2-day-1",
@@ -28,7 +28,7 @@
           },
           {
             "slot": "slot-2-day-1",
-            "talk": "building_a_complex_application_with_web_components_and_litelement"
+            "talk": "level_unlocked__gitops_to_the_edge_and_infrastructure_provisioning_"
           },
           {
             "slot": "lunch-day-1",
@@ -36,7 +36,7 @@
           },
           {
             "slot": "slot-3-day-1",
-            "talk": "interactive_web_animation_with_svg"
+            "talk": "don_t_miss_the_deno_train"
           },
           {
             "slot": "pause-3-day-1",
@@ -44,7 +44,7 @@
           },
           {
             "slot": "slot-4-day-1",
-            "talk": "building_web_apps_that_dont_suck"
+            "talk": "petit_guide_pratique_pour_commencer_un_design_system"
           },
           {
             "slot": "pause-4-day-1",
@@ -52,7 +52,7 @@
           },
           {
             "slot": "slot-5-day-1",
-            "talk": "iot_for_the_introvert"
+            "talk": "java_au_futur___des_record_au_pattern_matching"
           },
           {
             "slot": "pause-5-day-1",
@@ -60,7 +60,7 @@
           },
           {
             "slot": "slot-6-day-1",
-            "talk": "dr_gopher__anatomie_du_scheduler_golang"
+            "talk": "machine_a_lire"
           },
           {
             "slot": "pause-6-day-1",
@@ -68,7 +68,7 @@
           },
           {
             "slot": "slot-7-day-1",
-            "talk": "pair_design___un_moyen_de_concevoir_a_deux_ou_plus"
+            "talk": "comment_j_ai_peche_des_gros_poissons_avec_9_arduino_nanos_et_des_souvenirs_d_electronique"
           },
           {
             "slot": "party",
@@ -80,16 +80,8 @@
         "room": "room2",
         "slots": [
           {
-            "slot": "keynote-open",
-            "talk": "keynote_open_overflow"
-          },
-          {
-            "slot": "pause-1-day-1",
-            "talk": "__pause"
-          },
-          {
             "slot": "slot-1-day-1",
-            "talk": "go_serverless_with_cloud_functions_for_firebase"
+            "talk": "simuler_160k_joueurs_avec_cloud_run"
           },
           {
             "slot": "pause-2-day-1",
@@ -97,7 +89,7 @@
           },
           {
             "slot": "slot-2-day-1",
-            "talk": "developper_une_api_cloud_ready_avec_quarkus"
+            "talk": "how_to_create_pure_css_games"
           },
           {
             "slot": "lunch-day-1",
@@ -105,7 +97,7 @@
           },
           {
             "slot": "slot-3-day-1",
-            "talk": "docker__kubernetes___istio___tips__tricks___tools"
+            "talk": "highly_available__distributed___resilient_software____team"
           },
           {
             "slot": "pause-3-day-1",
@@ -113,7 +105,7 @@
           },
           {
             "slot": "slot-4-day-1",
-            "talk": "project_fugu__reaching_parity_with_native"
+            "talk": "orchestration_de_pipeline_de_donnees_en_serverless_avec_google_workflow"
           },
           {
             "slot": "pause-4-day-1",
@@ -121,7 +113,7 @@
           },
           {
             "slot": "slot-5-day-1",
-            "talk": "l_epopee_des_polices_css_de_comic_sans_aux_fontes_variables"
+            "talk": "dans_le_cloud_tout_est_manage_mais_pas_la_securite"
           },
           {
             "slot": "pause-5-day-1",
@@ -129,7 +121,7 @@
           },
           {
             "slot": "slot-6-day-1",
-            "talk": "promouvoir_son_projet_open_source_comme_une_rock_star__"
+            "talk": "apres_la_censure__l_auto_censure__mais_la_c_est_drole__educatif_et_avec_de_l_ia"
           },
           {
             "slot": "pause-6-day-1",
@@ -137,7 +129,7 @@
           },
           {
             "slot": "slot-7-day-1",
-            "talk": "le_futur_de_la_gestion_des_dependances_node"
+            "talk": "a_la_decouverte_du_material_sound_design"
           }
         ]
       },
@@ -145,8 +137,16 @@
         "room": "room3",
         "slots": [
           {
+            "slot": "keynote-open",
+            "talk": "__keynote_open_overflow"
+          },
+          {
+            "slot": "pause-1-day-1",
+            "talk": "__pause"
+          },
+          {
             "slot": "slot-1-day-1",
-            "talk": "au_dela_des_couleurs__des_interfaces_adaptees_au_daltonisme"
+            "talk": "tips_pour_combattre_le_syndrome_de_l_imposteur"
           },
           {
             "slot": "pause-2-day-1",
@@ -154,7 +154,7 @@
           },
           {
             "slot": "slot-2-day-1",
-            "talk": "tu_packages__comment___bazel_bazel_bazel___"
+            "talk": "github_actions___enfin_des_pipelines_accessible_aux_developpeurs"
           },
           {
             "slot": "lunch-day-1",
@@ -162,7 +162,7 @@
           },
           {
             "slot": "slot-3-day-1",
-            "talk": "duniter___la_blockchain_ecolo"
+            "talk": "cloud_cost__separating_myth_from_reality"
           },
           {
             "slot": "pause-3-day-1",
@@ -170,7 +170,7 @@
           },
           {
             "slot": "slot-4-day-1",
-            "talk": "performance_tuning_of_go_applications_in_cloud"
+            "talk": "___rust__un_choix_possible__"
           },
           {
             "slot": "pause-4-day-1",
@@ -178,7 +178,7 @@
           },
           {
             "slot": "slot-5-day-1",
-            "talk": "les_specificites_des_jeux_de_societe_numeriques"
+            "talk": "shazart__on_a_realise_le_shazam_du_street_art_et_on_vous_explique_comment"
           },
           {
             "slot": "pause-5-day-1",
@@ -186,7 +186,7 @@
           },
           {
             "slot": "slot-6-day-1",
-            "talk": "kubernetes_enfin_ultra_simple_et_leger_avec_k3s"
+            "talk": "react_query__le_server_state_facile_pour_react"
           },
           {
             "slot": "pause-6-day-1",
@@ -194,7 +194,7 @@
           },
           {
             "slot": "slot-7-day-1",
-            "talk": "le_sommeil__a_la_recherche_du_temps_perdu"
+            "talk": "developper_et_enseigner__une_bonne_idee__"
           }
         ]
       },
@@ -203,7 +203,7 @@
         "slots": [
           {
             "slot": "slot-1-day-1",
-            "talk": "gpgpu__utiliser_la_carte_graphique_pour_accelerer_vos_applications_"
+            "talk": "programmation_fonctionelle_en_kotlin_avec_arrow"
           },
           {
             "slot": "pause-2-day-1",
@@ -211,7 +211,7 @@
           },
           {
             "slot": "slot-2-day-1",
-            "talk": "iot_edge_to_the_rescue_"
+            "talk": "sensibilisation_au_numerique_responsable"
           },
           {
             "slot": "lunch-day-1",
@@ -219,7 +219,7 @@
           },
           {
             "slot": "slot-3-day-1",
-            "talk": "make_your_data_fabulous"
+            "talk": "continous_localization_in_web"
           },
           {
             "slot": "pause-3-day-1",
@@ -227,7 +227,7 @@
           },
           {
             "slot": "slot-4-day-1",
-            "talk": "null__undefined_and_maybe__a_tale_of_uncertainty"
+            "talk": "from_billions_to_hundreds___how_machine_learning_helps_experts_detect_sensible_data_leaks"
           },
           {
             "slot": "pause-4-day-1",
@@ -235,7 +235,7 @@
           },
           {
             "slot": "slot-5-day-1",
-            "talk": "authentication_authorization_starters_battle"
+            "talk": "et_si_vous_appreniez_a_programmer_a_vos_enfants"
           },
           {
             "slot": "pause-5-day-1",
@@ -243,7 +243,7 @@
           },
           {
             "slot": "slot-6-day-1",
-            "talk": "la_confidentialite_assuree_par_les_math"
+            "talk": "go_generics"
           },
           {
             "slot": "pause-6-day-1",
@@ -251,7 +251,7 @@
           },
           {
             "slot": "slot-7-day-1",
-            "talk": "comment_j_ai_fini_par_deployer_a_2h_du_matin_une_application_sur_aws_pour_piloter_des_voitures_electriques_avec_un_velo_d_appartement_"
+            "talk": "openapi___asyncapi___specifications_et_contrats"
           }
         ]
       },
@@ -260,7 +260,7 @@
         "slots": [
           {
             "slot": "codelab-1-day-1",
-            "talk": "apprenez_a_securiser_votre_cluster_kubernetes_par_la_pratique"
+            "talk": "prenez_vos_notes_en_mode_street_art___"
           },
           {
             "slot": "lunch-day-1",
@@ -268,7 +268,7 @@
           },
           {
             "slot": "codelab-2-day-1",
-            "talk": "decouvrez_micronaut__le_framework_qui_va_faire_du_bien_a_la_jvm__"
+            "talk": "hacking_game___crack_the_safe"
           },
           {
             "slot": "pause-4-day-1",
@@ -276,7 +276,7 @@
           },
           {
             "slot": "codelab-3-day-1",
-            "talk": "le_graal_d_aws___decouverte_et_prise_en_main_de_chalice"
+            "talk": "gitops___une_mise_en_situation_un_peu_realiste_sur_kubernetes_avec_fluxcd"
           }
         ]
       },
@@ -285,7 +285,7 @@
         "slots": [
           {
             "slot": "codelab-1-day-1",
-            "talk": "creer_votre_device_iot_connecte_en_quelques_heures"
+            "talk": "workshop_apache_kafka___introduction_aux_fondamentaux"
           },
           {
             "slot": "lunch-day-1",
@@ -293,7 +293,7 @@
           },
           {
             "slot": "codelab-2-day-1",
-            "talk": "workshop___kotlin_multiplatform___mutualiser_du_code_sur_ios_et_android"
+            "talk": "a_la_decouverte_d_accelerate"
           },
           {
             "slot": "pause-4-day-1",
@@ -301,14 +301,14 @@
           },
           {
             "slot": "codelab-3-day-1",
-            "talk": "understand_your_code_with_machine_learning_on_source_code"
+            "talk": "developpement_zero_dechet___tips___tricks_pour_ameliorer_l_empreinte_carbone_de_vos_applications"
           }
         ]
       }
     ]
   },
   {
-    "day": "2019-10-22",
+    "day": "2021-10-22",
     "start": "08:30",
     "rooms": [
       {
@@ -320,7 +320,7 @@
           },
           {
             "slot": "slot-1-day-2",
-            "talk": "lucy_in_the_sky_with_ml__building_the_ultimate_beatles_tribute_app"
+            "talk": "_️_vite_️the_webpack_killer"
           },
           {
             "slot": "pause-1-day-2",
@@ -328,7 +328,7 @@
           },
           {
             "slot": "slot-2-day-2",
-            "talk": "how_to_build_cloud_native_ci_cd_pipelines_with_tekton_on_kubernetes"
+            "talk": "flutter_en_2021___est__le_moment_de_s_y_interesser__"
           },
           {
             "slot": "pause-2-day-2",
@@ -336,7 +336,7 @@
           },
           {
             "slot": "slot-3-day-2",
-            "talk": "bootiful_testing"
+            "talk": "notre_recette_de_l_equipe_parfaite__"
           },
           {
             "slot": "lunch-day-2",
@@ -344,7 +344,7 @@
           },
           {
             "slot": "slot-4-day-2",
-            "talk": "svelte__la_nouvelle_revolution_des_applications_web"
+            "talk": "resiliency_and_availability_design_patterns_for_the_cloud"
           },
           {
             "slot": "pause-3-day-2",
@@ -352,7 +352,7 @@
           },
           {
             "slot": "slot-5-day-2",
-            "talk": "data___art"
+            "talk": "comment_l_opendata_peut_aider_l_agriculture_de_demain"
           },
           {
             "slot": "pause-4-day-2",
@@ -360,7 +360,7 @@
           },
           {
             "slot": "slot-6-day-2",
-            "talk": "parcel_js___le_bundler_dont_vous_reviez___"
+            "talk": "j_ai_presque_fini__"
           },
           {
             "slot": "pause-5-day-2",
@@ -368,7 +368,7 @@
           },
           {
             "slot": "slot-7-day-2",
-            "talk": "vega_au_secours_de_vos_visualisations_de_donnees"
+            "talk": "trucs_et_astuces_pour_reussir_son_burn_out"
           },
           {
             "slot": "pause-6-day-2",
@@ -376,7 +376,7 @@
           },
           {
             "slot": "keynote-close",
-            "talk": "keynote_close"
+            "talk": "__keynote_close"
           }
         ]
       },
@@ -385,7 +385,7 @@
         "slots": [
           {
             "slot": "slot-1-day-2",
-            "talk": "building_better_products_faster__devux_is_the_new_devops"
+            "talk": "place_des_femmes_dans_le_numerique__comment_inverser_la_tendance__"
           },
           {
             "slot": "pause-1-day-2",
@@ -393,7 +393,7 @@
           },
           {
             "slot": "slot-2-day-2",
-            "talk": "ai___robot_cat___a_smart_cat"
+            "talk": "next_js_a_la_rescousse_de_mon_frontend"
           },
           {
             "slot": "pause-2-day-2",
@@ -401,7 +401,7 @@
           },
           {
             "slot": "slot-3-day-2",
-            "talk": "tbd_talk"
+            "talk": "vue_3_et_son_ecosysteme"
           },
           {
             "slot": "lunch-day-2",
@@ -409,7 +409,7 @@
           },
           {
             "slot": "slot-4-day-2",
-            "talk": "knative__a_kubernetes_framework_to_manage_serverless_workloads"
+            "talk": "the_blind_test"
           },
           {
             "slot": "pause-3-day-2",
@@ -417,7 +417,7 @@
           },
           {
             "slot": "slot-5-day-2",
-            "talk": "_brancher_sa_guitare_a_son_navigateur___et_le_web_deviens_rock_n_roll____"
+            "talk": "securisez_votre_pipeline_de_livraison_multi_cloud_avec_hashicorp_vault"
           },
           {
             "slot": "pause-4-day-2",
@@ -425,7 +425,7 @@
           },
           {
             "slot": "slot-6-day-2",
-            "talk": "infrastructure_as_code__il_n_y_a_pas_que_terraform_dans_la_vie"
+            "talk": "developper_des_applis_web_pour_les_foldable_devices"
           },
           {
             "slot": "pause-5-day-2",
@@ -433,15 +433,11 @@
           },
           {
             "slot": "slot-7-day-2",
-            "talk": "informatique_quantique__je_suis_non_binaire"
+            "talk": "a_la_decouverte_du_code_source_du_vaccin_pfizer_biontech"
           },
           {
             "slot": "pause-6-day-2",
             "talk": "__pause"
-          },
-          {
-            "slot": "keynote-close",
-            "talk": "keynote_close_overflow"
           }
         ]
       },
@@ -450,7 +446,7 @@
         "slots": [
           {
             "slot": "slot-1-day-2",
-            "talk": "dis_moi_doc__quelle_it_en_2025__"
+            "talk": "google_cloud__construisez_votre_cloud_open_source_avec_anthos_private_mode"
           },
           {
             "slot": "pause-1-day-2",
@@ -458,7 +454,7 @@
           },
           {
             "slot": "slot-2-day-2",
-            "talk": "storybook_pour_votre_design_system__un_conte_de_fees__"
+            "talk": "iart_ou_comment_apprendre_a_une_machine_a_tagger_et_a_composer"
           },
           {
             "slot": "pause-2-day-2",
@@ -466,7 +462,7 @@
           },
           {
             "slot": "slot-3-day-2",
-            "talk": "the_web_is_on__f_i_r_e________conference_"
+            "talk": "quand_windows_rencontre_linux___"
           },
           {
             "slot": "lunch-day-2",
@@ -474,7 +470,7 @@
           },
           {
             "slot": "slot-4-day-2",
-            "talk": "apache_pulsar_101__architecture__concepts_et_comparaison"
+            "talk": "art___entropie__du_chaos_dans_ton_frontend"
           },
           {
             "slot": "pause-3-day-2",
@@ -482,7 +478,7 @@
           },
           {
             "slot": "slot-5-day-2",
-            "talk": "game_development_with_unity_from_an_android_point_of_view"
+            "talk": "la_dette_ui___en_finir_avec_les_interfaces_jetables_et_concevoir_une_ui_durable__adaptable_et_structuree_"
           },
           {
             "slot": "pause-4-day-2",
@@ -490,7 +486,7 @@
           },
           {
             "slot": "slot-6-day-2",
-            "talk": "webauthn__le_renouveau_de_l_authentification"
+            "talk": "animer_et_organiser_un_plateau_de__devs_differemment"
           },
           {
             "slot": "pause-5-day-2",
@@ -498,7 +494,7 @@
           },
           {
             "slot": "slot-7-day-2",
-            "talk": "comment_le_projet_euler_m_as_donne_envie_de_refaire_des_maths"
+            "talk": "postgresql_+_json___bye_bye_jpa_et_passe_le_bonjour_a_mongo"
           }
         ]
       },
@@ -507,7 +503,7 @@
         "slots": [
           {
             "slot": "slot-1-day-2",
-            "talk": "back_in_black_hat___comment_se_faire_pogoter__hacker__bien_comme_il_faut_"
+            "talk": "coupable_de_code_legacy_en_js__comment_s_en_sortir__"
           },
           {
             "slot": "pause-1-day-2",
@@ -515,7 +511,7 @@
           },
           {
             "slot": "slot-2-day-2",
-            "talk": "premiers_pas_avec_un_microcontroleur_et_google_cloud_iot_core"
+            "talk": "hasura___le_graphql_qui_hassure"
           },
           {
             "slot": "pause-2-day-2",
@@ -523,7 +519,7 @@
           },
           {
             "slot": "slot-3-day-2",
-            "talk": "core__le_principe__dans_le_doute_reboot__applique_a__net"
+            "talk": "la_policy_as_code_via_le_moteur_de_regles_cloud_custodian_"
           },
           {
             "slot": "lunch-day-2",
@@ -531,7 +527,7 @@
           },
           {
             "slot": "slot-4-day-2",
-            "talk": "fpga__creer_du_materiel_en_programmant"
+            "talk": "jetpack_compose__ui_toolkit_for_android_and_desktop_apps"
           },
           {
             "slot": "pause-3-day-2",
@@ -539,7 +535,7 @@
           },
           {
             "slot": "slot-5-day-2",
-            "talk": "build_your_own_knowledge_graph_with_weaviate_on_gcp"
+            "talk": "retour_d_experience_sur_remix"
           },
           {
             "slot": "pause-4-day-2",
@@ -547,7 +543,7 @@
           },
           {
             "slot": "slot-6-day-2",
-            "talk": "swift_superpowers"
+            "talk": "industrialiser_son_app_mobile___self_hosted_ou_saas_"
           },
           {
             "slot": "pause-5-day-2",
@@ -555,7 +551,7 @@
           },
           {
             "slot": "slot-7-day-2",
-            "talk": "jamstack__ou_comment_faire_des_sites_statiques_modernes_et_rapides"
+            "talk": "java_a_la_vitesse_de_la_lumiere_grace_au_graal__"
           }
         ]
       },
@@ -564,15 +560,11 @@
         "slots": [
           {
             "slot": "codelab-1-day-2",
-            "talk": "una_gitlab__le_tp_a_roulette__"
+            "talk": "une_approche_pragmatique_pour_debogguer__des_services_sur_openshift_kubernetes"
           },
           {
             "slot": "codelab-2-day-2",
-            "talk": "creons_notre_premiere_api_avec_nestjs"
-          },
-          {
-            "slot": "codelab-3-day-2",
-            "talk": "deploying_and_building_webthings_workshop_by_mozilla"
+            "talk": "the_walking_bread___participe_a_la_conception_ux_d_un_produit"
           }
         ]
       },
@@ -581,15 +573,11 @@
         "slots": [
           {
             "slot": "codelab-1-day-2",
-            "talk": "les_mains_dans_le_cambouis_avec_webassembly"
+            "talk": "deux_heures_pour_coder_un_catalogue_de_street_art_avec_stencil"
           },
           {
             "slot": "codelab-2-day-2",
-            "talk": "il_faut_sauver_lora"
-          },
-          {
-            "slot": "codelab-3-day-2",
-            "talk": "developper_de_nouvelles_applications_avec_docker_app"
+            "talk": "devenir_svelte_avec_svelte"
           }
         ]
       }

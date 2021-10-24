@@ -1,58 +1,28 @@
-.thumbnail {
+.thumbnail-youtube {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   width: 1920px;
   height: 1080px;
-  color: #fff;
-
+  aspect-ratio: 16 / 9;
+  color: #5D73AA;
+  background: url("../assets/youtube.jpg") no-repeat;
   background-size: contain;
-}
-
-.info-youtube {
-  margin: 50px;
 }
 
 h1 {
   font-size: 5rem;
-  text-align: right;
-  max-width: calc(1920px / 1.2);
-  margin: 2rem 2rem 6rem 2rem;
-  color: #fff;
+  color: #5D73AA;
+  text-align: center;
+  margin: 2rem 4rem;
+  margin-top: 3rem;
 }
 
 .speakers {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.speakers > * {
-  margin-bottom: 2rem;
-}
-
-.speakers > *:last-child {
-  margin-bottom: 0;
-}
-
-.youtube1 {
-  background: url("../assets/youtube1.jpg") no-repeat;
-}
-
-.youtube2 {
-  background: url("../assets/youtube2.jpg") no-repeat;
-}
-
-.youtube3 {
-  background: url("../assets/youtube3.jpg") no-repeat;
-}
-
-.youtube4 {
-  background: url("../assets/youtube4.jpg") no-repeat;
-}
-
-.youtube5 {
-  background: url("../assets/youtube5.jpg") no-repeat;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem 4rem;
 }
