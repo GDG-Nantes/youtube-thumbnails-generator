@@ -1,353 +1,368 @@
 [
   {
-    "key": "open-day-1",
+    "key": "day-1-open",
     "start": "08:00",
-    "duration": 60,
-    "row": {
-      "start": 1,
-      "end": 3
+    "type": "opening",
+    "display": {
+      "row": 1,
+      "size": 1
     }
   },
   {
-    "key": "keynote-open",
+    "key": "day-1-keynote-open",
     "start": "09:00",
-    "duration": 40,
-    "row": {
-      "start": 3,
-      "end": 6
+    "type": "keynote",
+    "display": {
+      "row": 2,
+      "size": 2
     }
   },
   {
-    "key": "pause-1-day-1",
+    "key": "day-1-pause-1",
     "start": "09:40",
-    "duration": 20,
-    "row": {
-      "start": 6,
-      "end": 7
+    "type": "break",
+    "display": {
+      "row": 4,
+      "size": 1
     }
   },
   {
-    "key": "slot-1-day-1",
+    "key": "day-1-conference-1",
     "start": "10:00",
-    "duration": 50,
-    "row": {
-      "start": 7,
-      "end": 10
+    "type": "conference",
+    "display": {
+      "row": 5,
+      "size": 2
     }
   },
   {
-    "key": "codelab-1-day-1",
+    "key": "day-1-codelab-1",
     "start": "10:00",
-    "duration": 120,
-    "row": {
-      "start": 7,
-      "end": 14
+    "type": "codelab",
+    "display": {
+      "row": 5,
+      "size": 5
     }
   },
   {
-    "key": "pause-2-day-1",
+    "key": "day-1-pause-2",
     "start": "10:50",
-    "duration": 20,
-    "row": {
-      "start": 10,
-      "end": 11
+    "type": "break",
+    "display": {
+      "row": 7,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-2-day-1",
+    "key": "day-1-conference-2",
     "start": "11:10",
-    "duration": 50,
-    "row": {
-      "start": 11,
-      "end": 14
+    "type": "conference",
+    "display": {
+      "row": 8,
+      "size": 2
     }
   },
   {
-    "key": "lunch-day-1",
+    "key": "day-1-lunch",
     "start": "12:00",
-    "duration": 120,
-    "row": {
-      "start": 14,
-      "end": 17
+    "type": "lunch",
+    "display": {
+      "row": 10,
+      "size": 2
     }
   },
   {
-    "key": "slot-3-day-1",
+    "key": "day-1-conference-3",
     "start": "14:00",
-    "duration": 50,
-    "row": {
-      "start": 17,
-      "end": 20
+    "type": "conference",
+    "display": {
+      "row": 12,
+      "size": 2
     }
   },
   {
-    "key": "codelab-2-day-1",
+    "key": "day-1-codelab-2",
     "start": "14:00",
-    "duration": 120,
-    "row": {
-      "start": 17,
-      "end": 25
+    "type": "codelab",
+    "display": {
+      "row": 12,
+      "size": 5
     }
   },
   {
-    "key": "pause-3-day-1",
+    "key": "day-1-pause-3",
     "start": "14:50",
-    "duration": 20,
-    "row": {
-      "start": 20,
-      "end": 22
+    "type": "break",
+    "display": {
+      "row": 14,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-4-day-1",
+    "key": "day-1-conference-4",
     "start": "15:10",
-    "duration": 50,
-    "row": {
-      "start": 22,
-      "end": 25
+    "type": "conference",
+    "display": {
+      "row": 15,
+      "size": 2
     }
   },
   {
-    "key": "pause-4-day-1",
+    "key": "day-1-pause-4",
     "start": "16:00",
-    "duration": 20,
-    "row": {
-      "start": 25,
-      "end": 26
+    "type": "break",
+    "display": {
+      "row": 17,
+      "size": 1
     }
   },
   {
-    "key": "slot-5-day-1",
+    "key": "day-1-conference-5",
     "start": "16:20",
-    "duration": 50,
-    "row": {
-      "start": 26,
-      "end": 29
+    "type": "conference",
+    "display": {
+      "row": 18,
+      "size": 2
     }
   },
   {
-    "key": "codelab-3-day-1",
+    "key": "day-1-codelab-3",
     "start": "16:20",
-    "duration": 120,
-    "row": {
-      "start": 26,
-      "end": 37
+    "type": "codelab",
+    "display": {
+      "row": 18,
+      "size": 6
     }
   },
   {
-    "key": "pause-5-day-1",
+    "key": "day-1-pause-5",
     "start": "17:10",
-    "duration": 10,
-    "row": {
-      "start": 29,
-      "end": 30
+    "type": "break",
+    "display": {
+      "row": 20,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-6-day-1",
+    "key": "day-1-quickie-1",
     "start": "17:20",
-    "duration": 20,
-    "row": {
-      "start": 30,
-      "end": 33
+    "type": "quickie",
+    "display": {
+      "row": 21,
+      "size": 1
     }
   },
   {
-    "key": "pause-6-day-1",
+    "key": "day-1-pause-6",
     "start": "17:40",
-    "duration": 10,
-    "row": {
-      "start": 33,
-      "end": 34
+    "type": "break",
+    "display": {
+      "row": 22,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-7-day-1",
+    "key": "day-1-quickie-2",
     "start": "17:50",
-    "duration": 20,
-    "row": {
-      "start": 34,
-      "end": 37
+    "type": "quickie",
+    "display": {
+      "row": 23,
+      "size": 1
     }
   },
   {
-    "key": "party",
+    "key": "day-1-party",
     "start": "18:30",
-    "duration": 180,
-    "row": {
-      "start": 37,
-      "end": 40
+    "type": "party",
+    "display": {
+      "row": 24,
+      "size": 2
     }
   },
   {
-    "key": "open-day-2",
+    "key": "day-2-open",
     "start": "08:30",
-    "duration": 30,
-    "row": {
-      "start": 1,
-      "end": 3
+    "type": "opening",
+    "display": {
+      "row": 1,
+      "size": 1
     }
   },
   {
-    "key": "slot-1-day-2",
+    "key": "day-2-conference-1",
     "start": "09:00",
-    "duration": 50,
-    "row": {
-      "start": 3,
-      "end": 6
+    "type": "conference",
+    "display": {
+      "row": 2,
+      "size": 2
     }
   },
   {
-    "key": "codelab-1-day-2",
+    "key": "day-2-codelab-1",
     "start": "09:00",
-    "duration": 120,
-    "row": {
-      "start": 3,
-      "end": 10
+    "type": "codelab",
+    "display": {
+      "row": 2,
+      "size": 5
     }
   },
   {
-    "key": "pause-1-day-2",
+    "key": "day-2-codelab-1-long",
+    "start": "09:00",
+    "type": "codelab",
+    "display": {
+      "row": 2,
+      "size": 8
+    }
+  },
+  {
+    "key": "day-2-pause-1",
     "start": "09:50",
-    "duration": 20,
-    "row": {
-      "start": 6,
-      "end": 7
+    "type": "break",
+    "display": {
+      "row": 4,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-2-day-2",
+    "key": "day-2-conference-2",
     "start": "10:10",
-    "duration": 50,
-    "row": {
-      "start": 7,
-      "end": 10
+    "type": "conference",
+    "display": {
+      "row": 5,
+      "size": 2
     }
   },
   {
-    "key": "pause-2-day-2",
+    "key": "day-2-pause-2",
     "start": "11:00",
-    "duration": 20,
-    "row": {
-      "start": 10,
-      "end": 11
+    "type": "break",
+    "display": {
+      "row": 7,
+      "size": 1
     }
   },
   {
-    "key": "slot-3-day-2",
+    "key": "day-2-conference-3",
     "start": "11:20",
-    "duration": 50,
-    "row": {
-      "start": 11,
-      "end": 14
+    "type": "conference",
+    "display": {
+      "row": 8,
+      "size": 2
     }
   },
   {
-    "key": "lunch-day-2",
+    "key": "day-2-lunch",
     "start": "12:10",
-    "duration": 110,
-    "row": {
-      "start": 14,
-      "end": 18
+    "type": "lunch",
+    "display": {
+      "row": 10,
+      "size": 2
     }
   },
   {
-    "key": "codelab-2-day-2",
+    "key": "day-2-codelab-2",
     "start": "14:00",
-    "duration": 120,
-    "row": {
-      "start": 18,
-      "end": 26
+    "type": "codelab",
+    "display": {
+      "row": 12,
+      "size": 5
     }
   },
   {
-    "key": "slot-4-day-2",
+    "key": "day-2-conference-4",
     "start": "14:00",
-    "duration": 50,
-    "row": {
-      "start": 18,
-      "end": 21
+    "type": "conference",
+    "display": {
+      "row": 12,
+      "size": 2
     }
   },
   {
-    "key": "pause-3-day-2",
+    "key": "day-2-pause-3",
     "start": "14:50",
-    "duration": 20,
-    "row": {
-      "start": 21,
-      "end": 22
+    "type": "break",
+    "display": {
+      "row": 14,
+      "size": 1,
+      "notForCodelab": true
     }
   },
   {
-    "key": "slot-5-day-2",
+    "key": "day-2-conference-5",
     "start": "15:10",
-    "duration": 50,
-    "row": {
-      "start": 22,
-      "end": 26
+    "type": "conference",
+    "display": {
+      "row": 15,
+      "size": 2
     }
   },
   {
-    "key": "codelab-3-day-2",
+    "key": "day-2-codelab-3",
     "start": "15:10",
-    "duration": 120,
-    "row": {
-      "start": 23,
-      "end": 34
+    "type": "codelab",
+    "display": {
+      "row": 15,
+      "size": 5
     }
   },
   {
-    "key": "pause-4-day-2",
+    "key": "day-2-pause-4",
     "start": "16:00",
-    "duration": 20,
-    "row": {
-      "start": 26,
-      "end": 27
+    "type": "break",
+    "display": {
+      "row": 17,
+      "size": 1
     }
   },
   {
-    "key": "slot-6-day-2",
+    "key": "day-2-quickie-1",
     "start": "16:20",
-    "duration": 20,
-    "row": {
-      "start": 27,
-      "end": 30
+    "type": "quickie",
+    "display": {
+      "row": 18,
+      "size": 1
     }
   },
   {
-    "key": "pause-5-day-2",
+    "key": "day-2-pause-5",
     "start": "16:40",
-    "duration": 10,
-    "row": {
-      "start": 30,
-      "end": 31
+    "type": "break",
+    "display": {
+      "row": 19,
+      "size": 1
     }
   },
   {
-    "key": "slot-7-day-2",
+    "key": "day-2-quickie-2",
     "start": "16:50",
-    "duration": 20,
-    "row": {
-      "start": 31,
-      "end": 35
+    "type": "quickie",
+    "display": {
+      "row": 20,
+      "size": 1
     }
   },
   {
-    "key": "pause-6-day-2",
+    "key": "day-2-pause-6",
     "start": "17:10",
-    "duration": 10,
-    "row": {
-      "start": 35,
-      "end": 36
+    "type": "break",
+    "display": {
+      "row": 21,
+      "size": 1
     }
   },
   {
-    "key": "keynote-close",
+    "key": "day-2-keynote-close",
     "start": "17:20",
-    "duration": 50,
-    "row": {
-      "start": 36,
-      "end": 40
+    "type": "keynote",
+    "display": {
+      "row": 22,
+      "size": 2
     }
   }
 ]

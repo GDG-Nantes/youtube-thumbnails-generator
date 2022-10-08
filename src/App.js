@@ -8,19 +8,21 @@ import Feedback from "./feedback/Thumbnail";
 class App extends Component {
   state = {
     currentId: undefined,
-    type: undefined
+    currentType: undefined,
+    currentIndex: undefined,
   };
 
-  handleClick = (id, type) => () => {
-    this.setState({ currentId: id, currentType: type });
+  handleClick = (id, type, index) => () => {
+    this.setState({ currentId: id, currentType: type, currentIndex: index });
   };
 
   render() {
-    const { currentId, currentType } = this.state;
+    const { currentId, currentType, currentIndex } = this.state;
 
     const url = new URL(window.location.href);
     const id = url.searchParams.get("id");
     const type = url.searchParams.get("type");
+    const index = url.searchParams.get("index");
 
     if (id || currentId) {
       const session = sites.sessions.find(
@@ -28,7 +30,7 @@ class App extends Component {
       );
 
       if (session && (type === "youtube" || currentType === "youtube"))
-        return <Youtube session={session} />;
+        return <Youtube index={index || currentIndex} session={session} />;
 
       if (session && (type === "feedback" || currentType === "feedback"))
         return <Feedback session={session} />;
@@ -38,11 +40,11 @@ class App extends Component {
       <div className="App">
         <p>{sites.sessions.length} sessions</p>
         {sites.sessions
-          .map(session => (
+          .map((session, index) => (
             <div key={session.key}>
               <div>{session.title}</div>
-              <button onClick={this.handleClick(session.key, "youtube")}>Youtube</button>
-              <button onClick={this.handleClick(session.key, "feedback")}>Feedback</button>
+              <button onClick={this.handleClick(session.key, "youtube", index)}>Youtube</button>
+              <button onClick={this.handleClick(session.key, "feedback", index)}>Feedback</button>
             </div>
           ))}
       </div>

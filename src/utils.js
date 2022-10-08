@@ -1,5 +1,4 @@
 import schedule from "./data/schedule.json";
-import rooms from "./data/rooms.json";
 import slots from "./data/slots.json";
 import categories from "./data/categories.json";
 
@@ -17,7 +16,7 @@ const getDay = day => {
 };
 
 const getRoom = roomId => {
-  return rooms.find(room => room.key === roomId).label.toUpperCase();
+  return roomId.toUpperCase();
 };
 
 const getHour = slotId => {

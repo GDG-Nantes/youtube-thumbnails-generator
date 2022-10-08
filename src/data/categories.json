@@ -1,62 +1,34 @@
 [
   {
-    "key": "bigdata-ai",
-    "name": "🤖 BigData & AI",
-    "id": "c97cf20f-aba8-5bcd-9251-72f8c3c536c6"
+    "id": "mobile_iot",
+    "label": "📱 Mobile & IoT"
   },
   {
-    "key": "cloud-devops",
-    "name": "☁️ Cloud & DevOps",
-    "id": "4fee2bdd-0cf4-5429-945c-42a422577ff5"
+    "id": "web",
+    "label": "🌍 Web"
   },
   {
-    "key": "discovery",
-    "name": "💡 Discovery",
-    "id": "ef048dea-2728-54c5-9334-93d0cfe5d981"
+    "id": "discovery",
+    "label": "💡 Discovery"
   },
   {
-    "key": "languages",
-    "name": "📝 Languages",
-    "id": "3e79596d-6302-5601-a027-901bff9e2692"
+    "id": "cloud_devops",
+    "label": "☁️ Cloud & DevOps"
   },
   {
-    "key": "mobile-iot",
-    "name": "📱 Mobile & IoT",
-    "id": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013"
+    "id": "languages",
+    "label": "📝 Languages"
   },
   {
-    "key": "security",
-    "name": "🐱‍💻 SECURITY",
-    "id": "1e18bcfa-f91a-5ac0-b2f1-ee586837c398"
+    "id": "bigdata_ai",
+    "label": "🤖 BigData & AI"
   },
   {
-    "key": "ux-ui",
-    "name": "💚 UX / UI",
-    "id": "b8f42b3e-d1d0-5212-bb39-9dfad1b01661"
+    "id": "security",
+    "label": "🐱‍💻 SECURITY"
   },
   {
-    "key": "web",
-    "name": "🌍 Web",
-    "id": "cf75cee3-5ee8-58de-ac77-6bb665a3463d"
-  },
-  {
-    "key": "__keynote_open",
-    "name": "🎉Stéréolux"
-  },
-  {
-    "key": "lunch",
-    "name": "Lunch"
-  },
-  {
-    "key": "open",
-    "name": "Ouverture"
-  },
-  {
-    "key": "party",
-    "name": "Party"
-  },
-  {
-    "key": "pause",
-    "name": "Pause"
+    "id": "ux_ui",
+    "label": "💚 UX / UI"
   }
 ]

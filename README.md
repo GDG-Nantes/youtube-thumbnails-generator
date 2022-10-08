@@ -5,15 +5,15 @@
 1. Clone the repository
 2. Install & start web server
 ```js
-yarn
-yarn start
+npm install
+npm start
 ```
 3. Install & execute make-screenshots script to generate screenshots
 ```js
 cd make-screenshots
-yarn
+npm install
 mkdir screenshots
-yarn start
+npm start
 ```
 
 🎉 All screenshots are generated into `make-screenshots/screenshots`

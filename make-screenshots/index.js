@@ -17,8 +17,8 @@ function sleep(ms) {
 
     if (!!session.key) {
       console.log(`Building ${session.key}...`)
-      console.log(`http://localhost:3000?id=${encodeURIComponent(session.key)}&type=youtube`)
-      await page.goto(`http://localhost:3000?id=${encodeURIComponent(session.key)}&type=youtube`);
+      console.log(`http://localhost:3000?id=${encodeURIComponent(session.key)}&type=youtube&index=${mapIndexToImage(i)}`)
+      await page.goto(`http://localhost:3000?id=${encodeURIComponent(session.key)}&type=youtube&index=${mapIndexToImage(i)}`);
   
       const elements = await page.$$(`#thumbnail`);
   
@@ -30,3 +30,7 @@ function sleep(ms) {
 
   await browser.close();
 })();
+
+function mapIndexToImage(index) {
+  return ((index + 1) % 3) + 1;
+}
