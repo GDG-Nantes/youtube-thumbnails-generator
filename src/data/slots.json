@@ -11,7 +11,7 @@
   {
     "key": "day-1-keynote-open",
     "start": "09:00",
-    "type": "keynote",
+    "type": "conference",
     "display": {
       "row": 2,
       "size": 2
@@ -208,15 +208,6 @@
     "display": {
       "row": 2,
       "size": 5
-    }
-  },
-  {
-    "key": "day-2-codelab-1-long",
-    "start": "09:00",
-    "type": "codelab",
-    "display": {
-      "row": 2,
-      "size": 8
     }
   },
   {

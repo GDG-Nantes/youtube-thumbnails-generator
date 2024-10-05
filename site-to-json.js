@@ -1,6 +1,8 @@
 const yaml = require('js-yaml');
 const fs   = require('fs');
 
+const WEBSITE_REPO_FOLDER = 'devfest2024';
+
 function readYaml(path) {
   try {
     return yaml.load(fs.readFileSync(path, 'utf8'));
@@ -24,17 +26,14 @@ function writeJSON(filename, data) {
 
 function main() {
   // categories
-  const categoriesJSON = readJSON('../devfest2022/data/categories.json');
+  const categoriesJSON = readJSON(`../${WEBSITE_REPO_FOLDER}/data/categories.json`);
   writeJSON('./src/data/categories.json', categoriesJSON.categories);
-  // schedule
-  const scheduleJSON = readJSON('../devfest2022/data/schedule.json');
-  writeJSON('./src/data/schedule.json', scheduleJSON.schedules);
   // slots
-  const slotsJSON = readJSON('../devfest2022/data/slots.json');
+  const slotsJSON = readJSON(`../${WEBSITE_REPO_FOLDER}/data/slots.json`);
   writeJSON('./src/data/slots.json', slotsJSON.slots);
 
-  const sessions = walkMarkdownFilesInFolder('../devfest2022/data/sessions');
-  const speakers = walkMarkdownFilesInFolder('../devfest2022/data/speakers');
+  const sessions = walkMarkdownFilesInFolder(`../${WEBSITE_REPO_FOLDER}/data/sessions`);
+  const speakers = walkMarkdownFilesInFolder(`../${WEBSITE_REPO_FOLDER}/data/speakers`);
   writeJSON('./src/data/site.json', { sessions, speakers });
 }
 

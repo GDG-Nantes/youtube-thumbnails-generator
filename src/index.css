@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Modesto";
-  src: url("fonts/ModestoCondensedLight.ttf");
+  font-family: "HigherJump";
+  src: url("fonts/HigherJump.ttf");
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Modesto", sans-serif;
+  font-family: "HigherJump", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

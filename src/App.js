@@ -3,7 +3,6 @@ import "./App.css";
 
 import sites from "./data/site.json";
 import Youtube from "./youtube/Thumbnail";
-import Feedback from "./feedback/Thumbnail";
 
 class App extends Component {
   state = {
@@ -31,9 +30,6 @@ class App extends Component {
 
       if (session && (type === "youtube" || currentType === "youtube"))
         return <Youtube index={index || currentIndex} session={session} />;
-
-      if (session && (type === "feedback" || currentType === "feedback"))
-        return <Feedback session={session} />;
     }
 
     return (
@@ -44,7 +40,6 @@ class App extends Component {
             <div key={session.key}>
               <div>{session.title}</div>
               <button onClick={this.handleClick(session.key, "youtube", index)}>Youtube</button>
-              <button onClick={this.handleClick(session.key, "feedback", index)}>Feedback</button>
             </div>
           ))}
       </div>

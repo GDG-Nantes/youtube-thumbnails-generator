@@ -1,7 +1,11 @@
 [
   {
-    "id": "mobile_iot",
-    "label": "📱 Mobile & IoT"
+    "id": "mobile",
+    "label": "📱 Mobile"
+  },
+  {
+    "id": "iot_hardware",
+    "label": "📟 IoT & Hardware"
   },
   {
     "id": "web",

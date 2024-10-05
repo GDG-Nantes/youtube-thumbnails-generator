@@ -6,6 +6,7 @@
 2. Install & start web server
 ```js
 npm install
+npm run build // build the data
 npm start
 ```
 3. Install & execute make-screenshots script to generate screenshots

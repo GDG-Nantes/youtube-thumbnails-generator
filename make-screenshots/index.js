@@ -1,6 +1,6 @@
 const fs = require("fs");
 const puppeteer = require("puppeteer");
-const { kebabCase, deburr } = require("lodash");
+const { kebabCase } = require("lodash");
 
 const contents = fs.readFileSync("../src/data/site.json");
 const sessions = JSON.parse(contents).sessions;
@@ -22,7 +22,10 @@ function sleep(ms) {
   
       const elements = await page.$$(`#thumbnail`);
   
-      const filename = deburr(kebabCase(session.title).substring(0, 40));
+      const room = kebabCase(session.room);
+      const slot = session.slot;
+      const filename = `${room}-${slot}`;
+
       await sleep(1000);
       await elements[0].screenshot({ path: `screenshots/${filename}.png` });
     }

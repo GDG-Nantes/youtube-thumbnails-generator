@@ -9,7 +9,7 @@ function mapIndexToImage(index) {
 
 const Thumbnail = ({ index, session }) => {
   return (
-    <div id={`thumbnail`} className={`thumbnail-youtube thumbnail-youtube-${mapIndexToImage(index)}`}>
+    <div id="thumbnail" className={`thumbnail-youtube thumbnail-youtube-${mapIndexToImage(index)}`}>
       <h1>{session.title}</h1>
       <div>
         <div className="speakers">
